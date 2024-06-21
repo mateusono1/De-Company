@@ -1,0 +1,17 @@
+Linhas duplicadas
+    81768 para 74355 (7413 linhas - 9%)
+
+removi os order_approved_at 
+    74355 para 74341 (14 linhas - 0,017%)
+
+Produtos sem dimensão 
+    74341 para 74323 (18 linhas - 0,02%)
+
+
+
+
+
+
+Cortar outlier de "delivery_time" 
+    74323 para 70771 (3552 linhas - 4,34%)
+
