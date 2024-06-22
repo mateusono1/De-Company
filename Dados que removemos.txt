@@ -15,3 +15,19 @@ Produtos sem dimensão
 Cortar outlier de "delivery_time" 
     74323 para 70771 (3552 linhas - 4,34%)
 
+Outlier de "Pedido em Aprovação"
+    70771 para 62919 (7852 linhas - 9,6%)
+
+Problemas na coluna "Separando o pedido"
+    Tempo negativo. O pedido estava na transportadora antes mesmo do pedido ser aprovado. Acredito que tenha sido erro de registro
+    62919 para 62860 (59 linhas - 0,07%)
+
+    Outliers superiores
+    62860 para 59985 (2875 linhas - 3.5%)
+
+Problemas na coluna "Pedido em transporte"
+    Tempo negativo 
+    59985 para 59962 (23 linhas - 0,03%)
+    59962 para 58542 (1420 linhas - 1,74% )
+
+
