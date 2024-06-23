@@ -1,16 +1,11 @@
 Linhas duplicadas
     81768 para 74355 (7413 linhas - 9%)
 
-removi os order_approved_at 
+Removi os order_approved_at 
     74355 para 74341 (14 linhas - 0,017%)
 
 Produtos sem dimensão 
     74341 para 74323 (18 linhas - 0,02%)
-
-
-
-
-
 
 Cortar outlier de "delivery_time" 
     74323 para 70771 (3552 linhas - 4,34%)
@@ -30,4 +25,22 @@ Problemas na coluna "Pedido em transporte"
     59985 para 59962 (23 linhas - 0,03%)
     59962 para 58542 (1420 linhas - 1,74% )
 
+Uma linha com um produto cuja "product_category_name"=="seguros e servicos"
+    58542 para 58541 (1 linha - 0,001%)
+
+Categorias similares/iguais que juntamos entre si: 
+    artes_e_artesanato 2 + artes 80
+    pc_gamer 5 + pcs 130
+    bebes 1521 + fraldas_higiene 5
+    construcao_ferramentas_ferramentas 48 + construcao_ferramentas_construcao 241 + construcao_ferramentas_jardim 110 + construcao_ferramentas_iluminacao 51 + construcao_ferramentas_seguranca 59 + ferramentas_jardim 2278
+    eletrodomesticos_2 99 + eletrodomesticos 376
+    alimentos_bebidas 142 + bebidas 141 + alimentos 184
+    cds_dvds_musicais 10 + dvds_blu_ray 38
+    eletroportateis 390 + portateis_casa_forno_e_cafe 22
+    casa_conforto 276 + casa_conforto_2 16
+    utilidades_domesticas 3191 + la_cuisine 15
+    informatica_acessorios 3914 + tablets_impressao_imagem 68 + eletronicos 1507
+    fashion_roupa_infanto_juvenil 5 + fashion_roupa_feminina 24 + fashion_esporte + fashion_roupa_masculina 82 + fashion_underwear_e_moda_praia 81 + fashion_calcados 167 + fashion_bolsas_e_acessorios 1303 + malas_acessorios 755
+    moveis_sala 222 + moveis_quarto 38 + moveis_colchao_e_estofado 32 + moveis_cozinha_area_de_servico_jantar_e_jardim 132 + moveis_decoracao 3969 + moveis_escritorio 321
+    telefonia 2589 + telefonia_fixa 131
 
