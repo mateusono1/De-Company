@@ -1,0 +1,11 @@
+Para a customers.csv
+    SELECT customers.* FROM customers
+
+Para a order_items.csv
+    SELECT order_items.* FROM order_items
+
+Para a products.csv 
+    SELECT products.* FROM products
+
+Para a sellers.csv
+    SELECT sellers.* FROM sellers
